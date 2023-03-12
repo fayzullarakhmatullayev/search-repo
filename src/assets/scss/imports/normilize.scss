@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+body {
+  font-size: 1rem;
+  line-height: 1.2;
+  color: $black;
+  background: $white;
+}
+
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+button,
+input,
+select,
+textarea {
+  outline: none;
+}
+
+.container {
+  max-width: 1172px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+.title {
+  text-align: center;
+  font-size: 2rem;
+  margin: 1rem 0;
+}
